@@ -1,0 +1,8 @@
+    1  clear
+    2  rsync -r /mnt/* ec2-user@13.233.148.235:/mnt
+    3  chmod 777 /mnt/*
+    4  history
+    5  history -info
+    6  history 20
+    7  history
+    8  history > print.txt
